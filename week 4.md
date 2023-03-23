@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 int main(void) {
-    int a, b, res, ress, resss;
+    int a, b, c, d, e;
 
     printf("물건 값을 입력하시오: ");
     scanf("%d", &a);
@@ -15,17 +15,17 @@ int main(void) {
 
     printf("거스름돈은 다음과 같습니다");
 
-    res = b - a;
-    ress = res / 1000;
-    resss = res % 1000;
-    printf("천원권: %d장\n", ress);
+    c = b - a;
+    d = c / 1000;
+    e = c % 1000;
+    printf("천원권: %d장\n", d);
 
-    ress = resss / 500;
-    printf("오백원권: %d장\n", ress);
-    resss = res % 500;
+    d = e / 500;
+    printf("오백원권: %d장\n", d);
+    e = c % 500;
 
-    ress = resss / 100;
-    printf("백원권: %d장", ress);
+    d = e / 100;
+    printf("백원권: %d장", d);
 
     return 0;
 }
