@@ -31,3 +31,22 @@ int main(void) {
     return 0;
 }
 ```
+
+```c
+#define _CRT_NO_SECURE_WARNINGS
+#include <stdio.h>
+
+int main(void) {
+    int a=472, b=385, c, d;
+
+    c = b % 10;
+    printf("%d\n", c*a);
+
+    c = (b-c) % 100;
+    printf("%d\n", c*a);
+
+    
+
+    return 0;
+}
+```
