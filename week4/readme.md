@@ -1,6 +1,6 @@
 # 4주차 C언어 수업
 
-# 4_01.c
+## 4_01.c
 ```c
 #define _CRT_NO_SECURE_WARNINGS
 #include <stdio.h>
