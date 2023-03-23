@@ -18,13 +18,13 @@ int main(void) {
 
     c = b - a;
     d = c / 1000;
-    e = c % 1000;
     printf("천원권: %d장\n", d);
 
+    e = c % 1000;
     d = e / 500;
     printf("오백원권: %d장\n", d);
-    e = c % 500;
 
+    e = c % 500;
     d = e / 100;
     printf("백원권: %d장", d);
 
