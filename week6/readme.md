@@ -1,6 +1,6 @@
 짝수의 합 -> 다른 방식으로!
 
-''' C
+```c
 #include <stdio.h>
 
 int main(void) {
@@ -20,4 +20,4 @@ int main(void) {
 
    return 0;
 }
-'''
+```
