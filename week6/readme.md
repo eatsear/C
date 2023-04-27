@@ -18,21 +18,3 @@ int main(void) {
 
    return 0;
 }
-```
-피라미드 별찍기
-```c
-#include <stdio.h>
-
-int main() {
-    for(int a=0; a<6; a++) {
-      for(int b=0; b<6-a; b++) {
-        printf(" "); }
-      for(int b=0; b<(1+2*a); b++) {
-        printf("*"); }
-      for(int b=0; b<6-a; b++) {
-        printf(" ");}
-      printf("\n");
-    }
-return 0;
-}
-```
